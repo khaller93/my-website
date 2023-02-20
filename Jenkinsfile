@@ -41,7 +41,7 @@ pipeline {
 
           stage('Compile') {
             def pwd = sh(script: "pwd | tr -d '\\n'", returnStdout: true)
-            sh "docker run --pull always --rm -v $pwd:/src klakegg/hugo:0.89.0"
+            sh "docker run --pull always --rm -v $pwd:/src klakegg/hugo:0.107.0-ext"
           }
 
           stage('Deploy') {
