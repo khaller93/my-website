@@ -38,4 +38,14 @@ I have been working on several research projects with [Marta Sabou](https://mart
   description = """My tasks were: (1) Answering questions of students regarding the exercises and related parts of the lecture in
 ’Semistructured Data’ and ’Database Systems’, (2) Discussing the proposed solution for exercises with students and suggesting a rating."""
 
+[[experience]]
+  title = "Community Service"
+  company = "Red Cross Austria"
+  company_url = "https://www.roteskreuz.at/home"
+  location = "Klagenfurt"
+  date_start = "2012-09-01"
+  date_end = "2013-05-31"
+  description = """My tasks were: (1) Assisting an ambulance team in transporting patients and handling emergencies (3 months),
+  and (2) Installing carephone systems for patients and maintaining legacy systems (6 months)."""
+
 +++
