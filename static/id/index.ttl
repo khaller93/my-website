@@ -1,0 +1,19 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://kevinhaller.dev/id> a foaf:PersonalProfileDocument ;
+   foaf:maker <https://kevinhaller.dev/id#me> ;
+   foaf:primaryTopic <https://kevinhaller.dev/id#me> .
+
+<https://kevinhaller.dev/id#me> a foaf:Person ;
+   # personal information
+   foaf:name "Kevin Haller" ;
+   foaf:givenName "Kevin" ;
+   foaf:familyName "Haller" ;
+   foaf:mbox <mailto:kevin.haller@outofbits.com> ;
+   foaf:mbox <mailto:kevin.haller@tuwien.ac.at> ;
+   foaf:homepage "https://kevinhaller.dev"^^xsd:anyURI ;
+   foaf:workplaceHomepage "http://semsys.ifs.tuwien.ac.at/"^^xsd:anyURI .

@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academia"
+title = "Kevin Haller"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user-2.jpg"
+hero_media = "user.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -30,18 +30,16 @@ hero_media = "user-2.jpg"
   # Text color (true=light or false=dark).
   text_color_light = false
 
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
 [btn]
-  url = "/authors/admin"
-  label = "Know more"
-  
-[btn_alt]
-  url = "#contact"
+  url = "mailto:contact@kevinhaller.dev"
   label = "Contact me"
 
 +++
-## My name is **Kevin Haller** and I'm a **Professor** specializing in **Artificial Intelligence**
+## My name is **Kevin Haller** and I'm a **Project Employee** at TU Wien specializing in **Exploratory Search on Knowledge Graphs**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+I work as project asssistant at TU Wien, where enabling exploratory search on knowledge graphs is the main focus of my work (as part of the EU project called OntoTrans). In this job, I gained deeper experience about Semantic Web technologies and graph databases.
+
+I am currently enrolled in the master programme ‘Software Engineering and Internet Computing’ at TU Wien and expect to graduate from this programme in April 2023.
+
+My interests are mainly in the construction of knowledge graphs, application of graph analysis such as similarity metrics or knowledge graph embeddings, and the efficient search in knowledge graphs.
+
