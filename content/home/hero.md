@@ -19,8 +19,7 @@ hero_media = "user.jpg"
   label = "Contact me"
 
 +++
-## My name is **Kevin Haller** and I'm a **Project Assistant** at TU Wien
-specializing in **Exploratory Search on Knowledge Graphs**
+## My name is **Kevin Haller** and I'm a **Project Assistant** at TU Wien specializing in **Exploratory Search on Knowledge Graphs**
 
 I work as project asssistant at TU Wien, where enabling exploratory search on 
 knowledge graphs is the main focus of my work. In this job, I gained deeper
