@@ -29,7 +29,6 @@ I am currently enrolled in the master programme ‘Software Engineering and
 Internet Computing’ at TU Wien and expect to graduate from this programme in
 April 2023.
 
-My interests are mainly in the construction of knowledge graphs, application of
-graph analysis such as similarity metrics or knowledge graph embeddings, and the
-efficient search in knowledge graphs.
+My interests are mainly in the construction of knowledge graphs, and the
+application of graph algorithms for KG‑based recommendation engines.
 
