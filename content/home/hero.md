@@ -21,9 +21,7 @@ hero_media = "user.jpg"
 +++
 ## My name is **Kevin Haller** and I'm a **Project Assistant** at TU Wien specializing in **Exploratory Search on Knowledge Graphs**
 
-I work as project asssistant at TU Wien, where enabling exploratory search on 
-knowledge graphs is the main focus of my work. In this job, I gained deeper
-experience about Semantic Web technologies and graph databases.
+...
 
 I am currently enrolled in the master programme ‘Software Engineering and
 Internet Computing’ at TU Wien and expect to graduate from this programme in
