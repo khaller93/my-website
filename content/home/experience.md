@@ -8,23 +8,18 @@ weight = 40  # Order that this section will appear.
 title = "Experience"
 subtitle = "ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
 
-# Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Senior Backend Engineer"
-  company = "to be announced"
-  company_url = "#"
+  title = "Senior Backend Developer"
+  company = "deepsearch"
+  company_url = "https://deepassist.com/"
   location = "Vienna"
   date_start = "2023-05-01"
   date_end = ""
-  description = """..."""
+  description = """
+I am contributing to the backend design and implementation of the Semantic AI platform of deepsearch.
+  """
 
 [[experience]]
   title = "Project Assistant"
@@ -34,7 +29,11 @@ date_format = "Jan 2006"
   date_start = "2017-05-01"
   date_end = "2023-05-01"
   description = """
-I have been working on several research projects with [Marta Sabou](https://martasabou.wordpress.com/) and [Fajar J. Ekaputra](http://juang.id/) of the [SemSys group](http://semsys.ifs.tuwien.ac.at/) at TU Wien. The main focus of my work is enabling exploratory search on general knowledge graphs, but in specific on knowledge graphs of the manufacturing and material science domain. I could gain experience from internal experiments, but also his ongoing active participation in the EU projects [OntoTrans](https://ontotrans.eu/) and [OntoCommons](https://ontocommons.eu/).
+I have been working on several research projects with [Marta Sabou](https://martasabou.wordpress.com/) of the 
+[SemSys group](http://semsys.ifs.tuwien.ac.at/) at TU Wien. The main focus of my work is enabling exploratory
+search on general knowledge graphs, but in specific on knowledge graphs of the manufacturing and material science
+domain. I could gain experience from internal experiments, but also his ongoing active participation in the EU
+projects [OntoTrans](https://ontotrans.eu/) and [OntoCommons](https://ontocommons.eu/).
   """
 
 [[experience]]

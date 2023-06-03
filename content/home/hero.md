@@ -19,14 +19,12 @@ hero_media = "user.jpg"
   label = "Contact me"
 
 +++
-## My name is **Kevin Haller** and I'm a **Project Assistant** at TU Wien specializing in **Exploratory Search on Knowledge Graphs**
+## My name is **Kevin Haller** and I'm a **Senior Backend Developer** at deepsearch
 
-...
+At deepsearch, I am contributing to the design and implementation of a Semantic AI platform.
 
 I am currently enrolled in the master programme ‘Software Engineering and
-Internet Computing’ at TU Wien and expect to graduate from this programme in
-April 2023.
+Internet Computing’ at TU Wien and expect to graduate from this programme in 2023.
 
-My interests are mainly in the construction of knowledge graphs, and the
-application of graph algorithms for KG‑based recommendation engines.
+My interests are mainly in the construction and application of knowledge graphs.
 
