@@ -1,4 +1,4 @@
-My Personal Website
+my personal website:
 
 ```bash
 hugo serve
