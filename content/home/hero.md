@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Kevin Haller"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user.jpg"
+hero_media = "me.jpg"
 
 [design.background]
   color = "#fff"
