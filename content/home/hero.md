@@ -21,7 +21,7 @@ hero_media = "user.jpg"
 +++
 ## My name is **Kevin Haller** and I'm a **Senior Backend Developer** at deepsearch
 
-At deepsearch, I am contributing to the design and implementation of a Semantic AI platform.
+At deepsearch, I contribute to the design and implementation of components in a semantic AI platform.
 
 I am currently enrolled in the master programme ‘Software Engineering and
 Internet Computing’ at TU Wien and expect to graduate from this programme in 2023.
