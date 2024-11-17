@@ -36,5 +36,4 @@ jobs:
         server-dir: 'public_html/'
         exclude: |
           '.htaccess'
-          'nostrpfp.jpeg'
           'datasets'
