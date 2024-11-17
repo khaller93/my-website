@@ -15,12 +15,25 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.119.0'
         extended: true
 
     - name: Build
       run: hugo --minify
-    
-    
+
+    - name: Sync files to root location
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ vars.PERSONAL_WEB_FTP_URL }}
+        username: ${{ secrets.PERSONAL_WEB_FTP_USERNAME }}
+        password: ${{ secrets.PERSONAL_WEB_FTP_PASSWORD }}
+        protocol: 'ftps'
+        port: ${{ vars.PERSONAL_WEB_FTP_PORT }}
+        local-dir: './public/'
+        server-dir: 'public_html/'
+        exclude: |
+          '.htaccess'
+          'nostrpfp.jpeg'
+          'datasets'
