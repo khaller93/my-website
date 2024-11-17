@@ -24,18 +24,18 @@ date_format = "Jan 2006"
   title = "BSc in Software and Information Engineering"
   url = ""
   certificate_url = ""
-  date_start = "2017-10-01"
-  date_end = ""
+  date_start = "2013-10-01"
+  date_end = "2017-10-01"
   description = "Based on scientific principles and methods, this bachelor`s program combines the entire process of software development with knowledge transfer in the field of information processing."
 
 [[item]]
   organization = "TU Wien / Vienna University of Technology"
   organization_url = "https://www.tuwien.at/"
-  title = "MSc (in progress) for Software Engineering and Internet Computing"
+  title = "MSc for Software Engineering and Internet Computing"
   url = ""
   certificate_url = ""
-  date_start = "2022-04-01"
-  date_end = ""
+  date_start = "2017-10-01"
+  date_end = "2024-10-16"
   description = """This master`s porgram deals with sofwtare development for distributed systems, mobile computing as well as Internet security and electronic payment as an essential information technology prerequisite for a virtual marketplace."""
 
 +++
