@@ -34,6 +34,7 @@ jobs:
         port: ${{ vars.PERSONAL_WEB_FTP_PORT }}
         local-dir: './public/'
         server-dir: 'public_html/'
+        log-level: verbose
         exclude: |
           '.htaccess'
           'datasets'
