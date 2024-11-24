@@ -23,7 +23,10 @@ jobs:
 
     - name: Build
       run: hugo --minify
-    
+
+    - name: Install rsync
+      run: sudo apt-get update && sudo apt-get install -y rsync
+
     - name: Sync files to root location
       env:
         FTP_HOST: ${{ vars.PERSONAL_WEB_FTP_URL }}
