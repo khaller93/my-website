@@ -23,18 +23,12 @@ jobs:
 
     - name: Build
       run: hugo --minify
-
+    
     - name: Sync files to root location
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ${{ vars.PERSONAL_WEB_FTP_URL }}
-        username: ${{ secrets.PERSONAL_WEB_FTP_USERNAME }}
-        password: ${{ secrets.PERSONAL_WEB_FTP_PASSWORD }}
-        protocol: 'ftps'
-        port: ${{ vars.PERSONAL_WEB_FTP_PORT }}
-        local-dir: './public/'
-        server-dir: 'public_html/test/'
-        log-level: verbose
-        exclude: |
-          '.htaccess'
-          'datasets'
+        env:
+          FTP_HOST: ${{ vars.PERSONAL_WEB_FTP_URL }}
+          FTP_USERNAME: ${{ secrets.PERSONAL_WEB_FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.PERSONAL_WEB_FTP_PASSWORD }}
+        run: |
+          RSYNC_RSH="sshpass -p $FTP_PASSWORD ssh -o StrictHostKeyChecking=no" \
+          rsync -avz --delete -e "$RSYNC_RSH" ./public/ $FTP_USERNAME@$FTP_HOST:/public_html/
