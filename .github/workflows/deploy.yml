@@ -31,4 +31,4 @@ jobs:
         FTP_PASSWORD: ${{ secrets.PERSONAL_WEB_FTP_PASSWORD }}
       run: |
         RSYNC_RSH="sshpass -p $FTP_PASSWORD ssh -o StrictHostKeyChecking=no" \
-        rsync -avz --delete -e "$RSYNC_RSH" ./public/ $FTP_USERNAME@$FTP_HOST:/public_html/
+        rsync -avz --delete -e "$RSYNC_RSH" ./public/ $FTP_USERNAME@$FTP_HOST:public_html/
