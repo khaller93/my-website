@@ -25,10 +25,10 @@ jobs:
       run: hugo --minify
     
     - name: Sync files to root location
-        env:
-          FTP_HOST: ${{ vars.PERSONAL_WEB_FTP_URL }}
-          FTP_USERNAME: ${{ secrets.PERSONAL_WEB_FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.PERSONAL_WEB_FTP_PASSWORD }}
-        run: |
-          RSYNC_RSH="sshpass -p $FTP_PASSWORD ssh -o StrictHostKeyChecking=no" \
-          rsync -avz --delete -e "$RSYNC_RSH" ./public/ $FTP_USERNAME@$FTP_HOST:/public_html/
+      env:
+        FTP_HOST: ${{ vars.PERSONAL_WEB_FTP_URL }}
+        FTP_USERNAME: ${{ secrets.PERSONAL_WEB_FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.PERSONAL_WEB_FTP_PASSWORD }}
+      run: |
+        RSYNC_RSH="sshpass -p $FTP_PASSWORD ssh -o StrictHostKeyChecking=no" \
+        rsync -avz --delete -e "$RSYNC_RSH" ./public/ $FTP_USERNAME@$FTP_HOST:/public_html/
