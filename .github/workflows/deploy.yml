@@ -33,7 +33,7 @@ jobs:
         protocol: 'ftps'
         port: ${{ vars.PERSONAL_WEB_FTP_PORT }}
         local-dir: './public/'
-        server-dir: 'public_html/test'
+        server-dir: 'public_html/test/'
         log-level: verbose
         exclude: |
           '.htaccess'
